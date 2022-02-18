@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-19T00:10:50 BDT" name="Reading browser details from testing xml" finished-at="2022-02-19T00:10:55 BDT" duration-ms="4833">
+    <groups>
+    </groups>
+    <test started-at="2022-02-19T00:10:50 BDT" name="Login Test" finished-at="2022-02-19T00:10:55 BDT" duration-ms="4833">
+      <class name="ui.LoginTestDemo">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.LoginTestDemo@7a419da4]" started-at="2022-02-19T00:10:50 BDT" name="loginTest" data-provider="credential" finished-at="2022-02-19T00:10:55 BDT" duration-ms="4793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- ui.LoginTestDemo -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Reading browser details from testing xml -->
+</testng-results>
