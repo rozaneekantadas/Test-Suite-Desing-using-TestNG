@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Functional Test</title>
+<title>TestNG:  Listerner Testing</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Functional Test</h2><table border='1' align="center">
+<h2 align='center'>Listerner Testing</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 19 21:18:02 BDT 2022</td>
+<td>Started on:</td><td>Sat Feb 19 22:49:27 BDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (63 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18867 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ui.GroupDemoTest.bTest2()'><b>bTest2</b><br>Test class: ui.GroupDemoTest</td>
+<td title='ui.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: ui.ListenerDemoTest</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at ui.GroupDemoTest.bTest2(GroupDemoTest.java:43)
+	at ui.ListenerDemoTest.launchApp(ListenerDemoTest.java:13)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1138697171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1138697171'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1743553655", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1743553655'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.testng.Assert.assertTrue(Assert.java:66)
-	at ui.GroupDemoTest.bTest2(GroupDemoTest.java:43)
+	at ui.ListenerDemoTest.launchApp(ListenerDemoTest.java:13)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,36 +115,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>ui.GroupDemoTest@2fb3536e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='ui.GroupDemoTest.alogoutTest()'><b>alogoutTest</b><br>Test class: ui.GroupDemoTest</td>
-<td></td>
-<td>0</td>
-<td>ui.GroupDemoTest@2fb3536e</td></tr>
-<tr>
-<td title='ui.GroupDemoTest.bloginTest()'><b>bloginTest</b><br>Test class: ui.GroupDemoTest</td>
-<td></td>
-<td>0</td>
-<td>ui.GroupDemoTest@2fb3536e</td></tr>
-<tr>
-<td title='ui.GroupDemoTest.csignupTest()'><b>csignupTest</b><br>Test class: ui.GroupDemoTest</td>
-<td></td>
-<td>0</td>
-<td>ui.GroupDemoTest@2fb3536e</td></tr>
-<tr>
-<td title='ui.GroupDemoTest.bTest1()'><b>bTest1</b><br>Test class: ui.GroupDemoTest</td>
-<td></td>
-<td>0</td>
-<td>ui.GroupDemoTest@2fb3536e</td></tr>
+<td>11</td>
+<td>ui.ListenerDemoTest@1da2cb77</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,5 +1,6 @@
 package ui;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -39,6 +40,7 @@ public class GroupDemoTest {
     @Test(groups="bvt")
     public void bTest2(){
         System.out.println("Test2");
+        Assert.assertTrue(false);
     }
 
 }

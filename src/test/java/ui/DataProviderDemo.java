@@ -15,7 +15,6 @@ public class DataProviderDemo {
 	public void loginTest(String username, String password) {
 		
 		System.out.println(username+"======"+password);
-	
 	}
 
 }
