@@ -1,67 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Method name is - reporterTest1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is 1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - reporterTest2]]>
+    </line>
+    <line>
+      <![CDATA[This is test2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is 1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - reporterTest3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is 1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - reporterTest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is 1]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-02-19T22:49:27 BDT" name="Listener Test Suite" finished-at="2022-02-19T22:49:46 BDT" duration-ms="18867">
+  <suite started-at="2022-02-21T01:03:03 BDT" name="Report Test Suite" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17253">
     <groups>
     </groups>
-    <test started-at="2022-02-19T22:49:27 BDT" name="Listerner Testing" finished-at="2022-02-19T22:49:46 BDT" duration-ms="18867">
-      <class name="ui.ListenerDemoTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ListenerDemoTest@1da2cb77]" started-at="2022-02-19T22:49:24 BDT" name="launchBrowser" finished-at="2022-02-19T22:49:27 BDT" duration-ms="3595" status="PASS">
+    <test started-at="2022-02-21T01:03:03 BDT" name="Reports Testing" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17253">
+      <class name="ui.ReportsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:00 BDT" name="launchBrowser" finished-at="2022-02-21T01:03:03 BDT" duration-ms="2485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="launchApp()[pri:0, instance:ui.ListenerDemoTest@1da2cb77]" started-at="2022-02-19T22:49:27 BDT" name="launchApp" finished-at="2022-02-19T22:49:39 BDT" duration-ms="11258" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at ui.ListenerDemoTest.launchApp(ListenerDemoTest.java:13)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="reporterTest1()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:03 BDT" name="reporterTest1" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17218" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Method name is - reporterTest1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is 1]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.ListenerDemoTest@1da2cb77]" started-at="2022-02-19T22:49:46 BDT" name="closingBrowser" finished-at="2022-02-19T22:49:47 BDT" duration-ms="312" status="PASS">
+        </test-method> <!-- reporterTest1 -->
+        <test-method signature="reporterTest2()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest2" finished-at="2022-02-21T01:03:20 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - reporterTest2]]>
+            </line>
+            <line>
+              <![CDATA[This is test2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest2 -->
+        <test-method signature="reporterTest3()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest3" finished-at="2022-02-21T01:03:20 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - reporterTest3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest3 -->
+        <test-method signature="reporterTest4()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest4" finished-at="2022-02-21T01:03:20 BDT" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - reporterTest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest4 -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="closingBrowser" finished-at="2022-02-21T01:03:20 BDT" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.ListenerDemoTest -->
-    </test> <!-- Listerner Testing -->
-  </suite> <!-- Listener Test Suite -->
+      </class> <!-- ui.ReportsTest -->
+    </test> <!-- Reports Testing -->
+  </suite> <!-- Report Test Suite -->
 </testng-results>

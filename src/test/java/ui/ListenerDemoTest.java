@@ -7,7 +7,13 @@ import common.BaseTest;
 
 public class ListenerDemoTest extends BaseTest{
 	
-	@Test
+//	@Test(retryAnalyzer = common.Retry.class)
+//	public void launchApp() {
+//		driver.get("https://ebay.com");
+//		Assert.assertTrue(false);
+//	}
+	
+	@Test()
 	public void launchApp() {
 		driver.get("https://ebay.com");
 		Assert.assertTrue(false);

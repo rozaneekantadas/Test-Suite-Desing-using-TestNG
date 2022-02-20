@@ -3,6 +3,7 @@
 <suite name="Listener Test Suite">
 	<listeners>
 		<listener class-name="common.Listeners" />
+		<listener class-name="common.RetryListener" />
 	</listeners>
 	<test name="Listerner Testing">
 		<classes>
