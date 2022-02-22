@@ -1,91 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Method name is - reporterTest1]]>
-    </line>
-    <line>
-      <![CDATA[Status of execution is 1]]>
-    </line>
-    <line>
-      <![CDATA[Method name is - reporterTest2]]>
-    </line>
-    <line>
-      <![CDATA[This is test2]]>
-    </line>
-    <line>
-      <![CDATA[Status of execution is 1]]>
-    </line>
-    <line>
-      <![CDATA[Method name is - reporterTest3]]>
-    </line>
-    <line>
-      <![CDATA[Status of execution is 1]]>
-    </line>
-    <line>
-      <![CDATA[Method name is - reporterTest4]]>
-    </line>
-    <line>
-      <![CDATA[Status of execution is 1]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-02-21T01:03:03 BDT" name="Report Test Suite" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17253">
+  <suite started-at="2022-02-22T09:54:06Z" name="Default suite" finished-at="2022-02-22T09:54:07Z" duration-ms="542">
     <groups>
     </groups>
-    <test started-at="2022-02-21T01:03:03 BDT" name="Reports Testing" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17253">
-      <class name="ui.ReportsTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:00 BDT" name="launchBrowser" finished-at="2022-02-21T01:03:03 BDT" duration-ms="2485" status="PASS">
+    <test started-at="2022-02-22T09:54:06Z" name="Default test" finished-at="2022-02-22T09:54:07Z" duration-ms="542">
+      <class name="ui.ExtentReportGenerate">
+        <test-method signature="extentTest()[pri:0, instance:ui.ExtentReportGenerate@13d4992d]" started-at="2022-02-22T15:54:06Z" name="extentTest" finished-at="2022-02-22T15:54:07Z" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="reporterTest1()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:03 BDT" name="reporterTest1" finished-at="2022-02-21T01:03:20 BDT" duration-ms="17218" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method name is - reporterTest1]]>
-            </line>
-            <line>
-              <![CDATA[Status of execution is 1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- reporterTest1 -->
-        <test-method signature="reporterTest2()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest2" finished-at="2022-02-21T01:03:20 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method name is - reporterTest2]]>
-            </line>
-            <line>
-              <![CDATA[This is test2]]>
-            </line>
-            <line>
-              <![CDATA[Status of execution is 1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- reporterTest2 -->
-        <test-method signature="reporterTest3()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest3" finished-at="2022-02-21T01:03:20 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method name is - reporterTest3]]>
-            </line>
-            <line>
-              <![CDATA[Status of execution is 1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- reporterTest3 -->
-        <test-method signature="reporterTest4()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="reporterTest4" finished-at="2022-02-21T01:03:20 BDT" duration-ms="3" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method name is - reporterTest4]]>
-            </line>
-            <line>
-              <![CDATA[Status of execution is 1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- reporterTest4 -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.ReportsTest@7bd4937b]" started-at="2022-02-21T01:03:20 BDT" name="closingBrowser" finished-at="2022-02-21T01:03:20 BDT" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.ReportsTest -->
-    </test> <!-- Reports Testing -->
-  </suite> <!-- Report Test Suite -->
+        </test-method> <!-- extentTest -->
+      </class> <!-- ui.ExtentReportGenerate -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

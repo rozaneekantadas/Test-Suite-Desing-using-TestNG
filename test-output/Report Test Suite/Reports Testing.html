@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Reports Testing</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 21 01:03:03 BDT 2022</td>
+<td>Started on:</td><td>Mon Feb 21 12:04:35 BDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17253 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18268 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,59 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ui.ReportsTest.reporterTest1()'><b>reporterTest1</b><br>Test class: ui.ReportsTest<br/>
+<a href="#Output-1742900195" onClick='toggleBox("Output-1742900195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1742900195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1742900195">
+<a href="C:\Users\Asus\eclipse-workspace\WebProtalTestProject\screenshot\Sat-Feb-19-22-49-39-BDT-2022.png">Test Resutls</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at ui.ReportsTest.reporterTest1(ReportsTest.java:15)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1742900195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1742900195'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at ui.ReportsTest.reporterTest1(ReportsTest.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>ui.ReportsTest@3a12c404</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,58 +128,42 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ui.ReportsTest.reporterTest3()'><b>reporterTest3</b><br>Test class: ui.ReportsTest<br/>
-<a href="#Output-2082545616" onClick='toggleBox("Output-2082545616", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2082545616" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2082545616">
-Method name is - reporterTest3<br/>
-Status of execution is 1<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>ui.ReportsTest@7bd4937b</td></tr>
-<tr>
-<td title='ui.ReportsTest.reporterTest1()'><b>reporterTest1</b><br>Test class: ui.ReportsTest<br/>
-<a href="#Output-884604029" onClick='toggleBox("Output-884604029", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-884604029" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-884604029">
-Method name is - reporterTest1<br/>
-Status of execution is 1<br/>
-</div>
-</td>
-<td></td>
-<td>17</td>
-<td>ui.ReportsTest@7bd4937b</td></tr>
-<tr>
 <td title='ui.ReportsTest.reporterTest2()'><b>reporterTest2</b><br>Test class: ui.ReportsTest<br/>
-<a href="#Output-215614514" onClick='toggleBox("Output-215614514", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-238308051" onClick='toggleBox("Output-238308051", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-215614514" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-215614514">
-Method name is - reporterTest2<br/>
+<a href="#Output-238308051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-238308051">
 This is test2<br/>
 Status of execution is 1<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>ui.ReportsTest@7bd4937b</td></tr>
+<td>ui.ReportsTest@3a12c404</td></tr>
 <tr>
-<td title='ui.ReportsTest.reporterTest4()'><b>reporterTest4</b><br>Test class: ui.ReportsTest<br/>
-<a href="#Output-117460541" onClick='toggleBox("Output-117460541", this, "Show output", "Hide output");'>Show output</a>
+<td title='ui.ReportsTest.reporterTest3()'><b>reporterTest3</b><br>Test class: ui.ReportsTest<br/>
+<a href="#Output-232886115" onClick='toggleBox("Output-232886115", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-117460541" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-117460541">
-Method name is - reporterTest4<br/>
+<a href="#Output-232886115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-232886115">
 Status of execution is 1<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>ui.ReportsTest@7bd4937b</td></tr>
+<td>ui.ReportsTest@3a12c404</td></tr>
+<tr>
+<td title='ui.ReportsTest.reporterTest4()'><b>reporterTest4</b><br>Test class: ui.ReportsTest<br/>
+<a href="#Output-277601240" onClick='toggleBox("Output-277601240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-277601240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-277601240">
+Status of execution is 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.ReportsTest@3a12c404</td></tr>
 </table><p>
 </body>
 </html>

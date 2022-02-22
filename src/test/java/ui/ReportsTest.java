@@ -12,7 +12,7 @@ public class ReportsTest extends BaseTest{
 	public void reporterTest1() {
 		System.out.println("This is test1");
 		driver.get("https://salesforce.com");
-		//Assert.assertTrue(false);
+		Assert.assertTrue(false);
 	}
 	
 	@Test
